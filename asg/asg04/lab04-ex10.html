@@ -1,0 +1,60 @@
+<!-- In Class  - Assignment-4 – ex 10 – COSC 2328 – Professor McCurry -->
+<!-- Implemented by - Ryan Aparicio  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Asg 4 - ex 10</title>
+    <style></style>
+  </head>
+  <body>
+    <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+      <fieldset>
+        <legend>Sample Choice Controls</legend>
+        <p>
+          <label for="country">Countries: </label><br />
+          
+        </p>
+        <p>
+          <label for="continent">Continent: </label><br />
+          <select size="4" name="continent" id="continent">
+            <option value="NA">North America</option>
+            <option value="EU">Europe</option>
+            <option value="AS">Asia</option>
+            <option value="SA">South America</option>
+            </select>
+        </p>
+        <p>
+          <label for="city">City: </label><br />
+          <select name="city" id="city">
+            <optgroup label="North America">
+            <option>Calgary</option>
+            <option>Los Angeles</option>
+            </optgroup>
+            <optgroup label="Europe">
+            <option>London</option>
+            <option>Paris</option>
+            <option>Prague</option>
+            </optgroup>
+            </select>
+        </p>
+        <p>
+          <label for="gender">Gender of Traveller: </label><br />
+          <input type="radio" name="gender" value="1" 
+            id="gender">Female<br/>
+            <input type="radio" name="gender" value="2">Male<br/>
+        </p>
+        <p>
+          <label for="hear">How did you hear about the site: </label><br />
+          <input type="checkbox" name="hear" value="email" 
+              id="hear">Email<br/>
+              <input type="checkbox" name="hear" 
+              value="friend">Friend<br/>
+              <input type="checkbox" name="hear" value="website">Website
+        </p>
+
+        <input type="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
