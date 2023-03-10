@@ -1,0 +1,85 @@
+<!-- In Class  - Assignment-4 – ex 14 – COSC 2328 – Professor McCurry -->
+<!-- Implemented by - Ryan Aparicio  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Asg 4 - ex 14</title>
+    <style>
+      body {
+        background-color: #f0f4f8;
+      }
+      .customText { 
+        border: 0; 
+        padding: 7px 5px; 
+        margin: 3px;
+        }
+        .roundedText {
+          border-radius: 4px;
+          }
+          .borderedText {
+          border-bottom: 1px solid #627D98;
+          }
+          .borderedText:focus { 
+            background-color: 
+            #BCCCDC;
+            }
+            .customText::placeholder { 
+            color: #D9E2EC;
+            }
+            .customBtn { 
+              
+              border: 0; 
+              padding: 5px; 
+              margin: 4px;
+              }
+              .btnA {
+              border-radius: 2px; 
+              background-color: 
+              #003E6B; color: white;
+              width: 100px; 
+              cursor: pointer;
+              }
+              .btnA:hover {
+              background-color:  #486581;
+              }
+
+              .btnB {
+            border-radius:  5px; border: 
+            solid 1pt #9FB3C8; 
+            background-color: #F0F4F8; 
+            color: #003E6B;
+            width: 100px; cursor: 
+            pointer;
+            }
+            .shadowed {
+            box-shadow: 4px 4px 8px rgba(159, 179, 200, 0.7);
+            }
+
+    </style>
+  </head>
+  <body>
+    <form>
+      <h2>Default control appearance</h2>
+      <input type="text" placeholder="placeholder" />
+      <button>Click</button>
+
+      <h2>Customized controls</h2>
+      <input
+        type="text"
+        class="customText roundedText"
+        placeholder="placeholder"
+      />
+      <input
+        type="text"
+        class="customText borderedText"
+        placeholder="placeholder"
+      />
+      <p>
+        <button class="customBtn btnA">Click</button>
+        <button class="customBtn btnB">Secondary A</button>
+        <button class="customBtn btnB shadowed">Secondary B</button>
+      </p>
+    </form>
+  </body>
+</html>
