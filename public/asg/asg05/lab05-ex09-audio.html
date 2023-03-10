@@ -1,0 +1,64 @@
+<!-- In Class  - Assignment-5 – ex 09 – COSC 2328 – Professor McCurry -->
+<!-- Implemented by - Ryan Aparicio  -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Chapter 5 - ex-09 - audio</title>
+  </head>
+
+  <body>
+    <!-- audio mp3 style-->
+    <h2>mp3</h2>
+    <audio src="audio/Sochi-Edit.mp3" controls > 
+      Browser doesn't support the audio control
+    </audio>
+
+    <h2>ogg</h2>
+    <!-- audio ogg style-->
+    <audio controls >
+      <source src="audio/Sochi-Edit.ogg" >
+      <p>Browser doesn't support the audio control</p><!-- fallback -->
+    </audio>
+
+    <h2>m4a</h2>
+    <!-- audio m4a style-->
+    <audio controls >
+      <source src="audio/Sochi-Edit.m4a" >
+      <p>Browser doesn't support the audio control</p><!-- fallback -->
+    </audio>
+
+    <h2>wav</h2>
+    <!-- audio wav style-->
+    <audio controls >
+      <source src="audio/Sochi-Edit.wav" >
+      <p>Browser doesn't support the audio control</p><!-- fallback -->
+    </audio>
+
+    <h2>webm</h2>
+    <!-- audio webm style-->
+    <audio controls >
+      <source src="audio/Sochi-Edit.webm" >
+      <p>Browser doesn't support the audio control</p><!-- fallback -->
+    </audio>
+
+    <hr />
+    <h2>All in one</h2>
+    <!-- audio whichever one works-->
+    <audio controls >
+      <source src="audio/Sochi-Edit.mp3" type="audio/mpeg">
+      <source src="audio/Sochi-Edit.ogg" type="audio/ogg">
+      <source src="audio/Sochi-Edit.m4a" type="audio/mp4">
+      <source src="audio/Sochi-Edit.wav" type="audio/wav">
+      <source src="audio/Sochi-Edit.webm" type="audio/webm">
+      <p>Browser doesn't support the audio control</p> <!-- fallback -->
+    </audio>
+
+    <footer>
+      <p>
+        Audio from <a href="http://www.brucepetherick.com/">Bruce Petherick</a> <!-- credit -->
+        <br />
+      </p>
+    </footer>
+  </body>
+</html>

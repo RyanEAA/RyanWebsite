@@ -1,0 +1,63 @@
+
+/* This is the CSS file for the website. */
+/* It is linked to the HTML file using the <link> element. */
+
+/* BODY COLOR IS #FFFBE0 */
+body{
+    background-color: #FFFBE0;
+}
+
+/* HEADER COLOR IS #FFD700 
+with a left margin of 20px*/
+header{
+    color: navy;
+    margin-left:20px;
+}
+
+/* h1 font-size is 75px
+font is  "Lucida Console", "Courier New", monospace; */
+h1{
+    font-size: 75px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-shadow: 2px 2px 5px #FFD700;
+}
+
+/* h2 COLOR IS black 
+font-size is 45px*/
+h2{
+    font-size: 45px;
+    color: rgb(178, 55, 55);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #FFD700;
+}
+
+/* h3 COLOR IS black
+width is a constant 300 with height changing automatically*/
+img{
+    width: 300px;
+    height: auto;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid rgb(146, 22, 22);
+}
+  
+tr:hover {background-color: #D6EEEE;}
+
+div{
+    text-align: center;
+}
+  
